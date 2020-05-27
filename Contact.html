@@ -23,16 +23,13 @@
           <form id="frmContact" action="merci.html">
              <div>
                 <div>
-                    <label for="flName">Nom et Prénom</label>
-                    <input type="text" name="flName" id="flName">
+                    <input type="text" name="flName" id="flName" placeholder="Votre Nom et prénom" required>
                 </div>
                 <div>
-                  <label for="email">Votre email</label>
-                  <input type="email" name="email" id="email">
+                  <input type="email" name="email" id="email" placeholder="Votre email" required>
                 </div>
                 <div>
-                  <label for="message">Votre message</label>
-                  <textarea name="message" id="message"></textarea>
+                  <textarea name="message" id="message" placeholder="Votre message"></textarea required>
                 </div>
              </div>
              <button type="submit">Envoyer ma demande</button>
@@ -51,5 +48,28 @@
               <img src="/image/glyph-logo_May2016.png" alt="insatgramLogo">
           </figure>
        </main>
+       <footer>
+        <figure>
+            <img src="/image/plan.png" alt="plan" width="50%">
+            <figcaption>
+                <h2>Venez-nous voir</h2>
+       <address>
+            Coco Rico<br>
+            127 Rue de la Pompe<br>
+             75003 Paris<br>
+        </address>
+        <p>
+            tél: 0135459000<br>
+            mail: coco@cocorico.com
+        </p>
+        <h2>Recevez les nouveautés</h2>
+        <div>
+            <input type="email" name="email" id="email" placeholder="votre email" required>
+          </div>
+        <button type="submit">Je m'inscris</button>
+            </figcaption>
+        </figure>
+    </footer>
     </body>
+
 </html>
