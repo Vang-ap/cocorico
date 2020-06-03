@@ -6,9 +6,9 @@
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/cocorico.css">
     </head>
-    <body>
+    <body class="bodyHome">
         <header id="mainHeader">
-            <img src="/logo.png" alt="logo" id="logo">
+            <img src="/logo.png" alt="logoCoco" id="logoCoco">
             <nav id="mainNav">
                 <ul>
                     <li><a href="index.html" title="Vers la page d'accueil du site Coco Rico">Acceuil |</a></li>
@@ -18,8 +18,8 @@
                     <li><a href="Contact.html" title="Vers la page de contact de ce site">Contactez-nous</a></li>
                 </ul>
             </nav>
-        </header>
-       <main id="pageContent">
+        </header> 
+       <main id="pageContact">
            <h1>Laissez nous un petit mot</h1>
           <form id="frmContact" action="merci.html">
              <div>
@@ -36,38 +36,45 @@
              <button type="submit">Envoyer ma demande</button>
           </form> 
           <h2>Ou Contactez-nous</h2>
-          <figure>
-              <img src="/image/logo/WhatsApp_Logo_3.png" alt="whatsAppLogo">
-          </figure>
-          <figure>
-              <img src="/image/logo/f_logo_RGB-Blue_72.png" alt="facebookLogo">
-          </figure>
-          <figure>
-              <img src="/image/logo/Twitter_Social_Icon_Circle_Color.png" alt="twitterLogo">
-          </figure>
-          <figure>
-              <img src="/image/logo/glyph-logo_May2016.png" alt="insatgramLogo">
-          </figure>
+          <div class="logoContact">
+            <figure>
+                <img src="/image/logo/WhatsApp_Logo_2.png" alt="whatsAppLogo" class="whatsAppLogo">
+            </figure>
+            <figure>
+                <img src="/image/logo/f_logo_RGB-Blue_72.png" alt="facebookLogo" class="facebookLogo">
+            </figure>
+            <figure>
+                <img src="/image/logo/Twitter_Social_Icon_Circle_Color.png" alt="twitterLogo" class="twitterLogo">
+            </figure>
+            <figure>
+                <img src="/image/logo/glyph-logo_May2016.png" alt="insatgramLogo" class="insatgramLogo">
+            </figure>
+          </div>
        </main>
        <footer id="mainFooter">
-        <figure>
-            <img src="/image/plan.png" alt="plan" width="50%" id="plan">
-            <figcaption>
-                <h2>Venez-nous voir</h2>
-       <address>
-            Coco Rico<br>
-            127 Rue de la Pompe<br>
-             75003 Paris<br>
-        </address>
-        <p>
-            tél: 0135459000<br>
-            mail: coco@cocorico.com
-        </p>
-        <h2>Recevez les nouveautés</h2>
-        <div>
-            <input type="email" name="email" id="email" placeholder="votre email" required>
-          </div>
-        <button type="submit">Je m'inscris</button>
+        <figure id="figureFooter">
+            <img src="/image/plan.png" class="planFooter" alt="plan" width="50%">
+            <figcaption id="figcaptionAddress">
+                <div id="address">
+                    <h2>Venez-nous voir</h2>
+                    <address>
+                        Coco Rico<br>
+                        127 Rue de la Pompe<br>
+                        75003 Paris<br>
+                    </address>
+                    <p>
+                        tél: <a href="tel:0135459000">0135459000</a><br>
+                        mail: coco@cocorico.com
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Recevez les nouveautés</h2>
+                    <div>
+                        <input type="email" name="email" id="email"  placeholder="votre email" required>
+                    </div>
+                    <button type="submit" class="newsLetter">Je m'inscris</button>
+                </div>
             </figcaption>
         </figure>
     </footer>
