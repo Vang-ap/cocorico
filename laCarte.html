@@ -3,10 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title>Coco Rico</title>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/cocorico.css">
     </head>
-    <body>
-        <header>
-            <img src="/logo.png" alt="logococo" id="logococo">
+    <body class="bodyHome">
+        <header id="mainHeader">
+            <img src="/logo.png" alt="logoCoco" id="logoCoco">
             <nav id="mainNav">
                 <ul>
                     <li><a href="index.html" title="Vers la page d'accueil du site Coco Rico">Acceuil |</a></li>
@@ -16,15 +18,16 @@
                     <li><a href="Contact.html" title="Vers la page de contact de ce site">Contactez-nous</a></li>
                 </ul>
             </nav>
-        </header>
+        </header> 
+        <section class="restaurantCarte"></section>
         <main id="pageContent">
-            <h1>Découvrez la carte</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/u-fNqxkPn1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div>
-                <h2>Les Menus </h2>
-                <figure>
-                    <img src="/image/menu.jpeg">
-                    <figcaption>
+            <iframe  class="video" width="560" height="315" src="https://www.youtube.com/embed/u-fNqxkPn1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 id="fristTitleCarte">Découvrez la carte</h1>
+            <h2 id="secondTitleCarte">Les Menus </h2>
+            <div class="laCarte">
+                <figure class="cartesPlats">
+                    <img src="/image/MenusV.png" alt="menus">
+                    <figcaption class="descriptCarte">
                         <div>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus consectetur vestibulum. Duis sodales dolor id nulla aliquet dignissim. Phasellus et sem malesuada, dapibus est eget, rhoncus eros.
@@ -61,11 +64,11 @@
                     </figcaption>
                 </figure>
             </div>
-            <div>
-                <h2>Les salades</h2>
-                <figure>
-                    <img src="/image/salade.jpeg">
-                    <figcaption>
+            <h2 id="secondTitleCarte">Les salades</h2>
+            <div class="laCarte">
+                <figure class="cartesPlats">
+                    <img src="/image/SaladeV.png" alt="salade">
+                    <figcaption class="descriptCarte">
                         <div>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus consectetur vestibulum. Duis sodales dolor id nulla aliquet dignissim. Phasellus et sem malesuada, dapibus est eget, rhoncus eros.
@@ -102,11 +105,11 @@
                     </figcaption>
                 </figure>
             </div>
-            <div>
-                <h2>Les desserts</h2>
-                <figure>
-                    <img src="/image/dessert.jpg">
-                    <figcaption>
+            <h2 id="secondTitleCarte">Les desserts</h2>
+            <div class="laCarte">
+                <figure class="cartesPlats">
+                    <img src="/image/DessertsV.png" alt="dessert">
+                    <figcaption class="descriptCarte">
                         <div>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus consectetur vestibulum. Duis sodales dolor id nulla aliquet dignissim. Phasellus et sem malesuada, dapibus est eget, rhoncus eros.
@@ -144,25 +147,30 @@
                 </figure>
             </div>
         </main>
-        <footer>
-            <figure>
-                <img src="/image/plan.png" alt="plan" width="50%">
-                <figcaption>
-                    <h2>Venez-nous voir</h2>
-           <address>
-                Coco Rico<br>
-                127 Rue de la Pompe<br>
-                 75003 Paris<br>
-            </address>
-            <p>
-                tél: 0135459000<br>
-                mail: coco@cocorico.com
-            </p>
-            <h2>Recevez les nouveautés</h2>
-            <div>
-                <input type="email" name="email" id="email" placeholder="votre email" required>
-              </div>
-            <button type="submit">Je m'inscris</button>
+        <footer id="mainFooter">
+            <figure id="figureFooter">
+                <img src="/image/plan.png" class="planFooter" alt="plan" width="50%">
+                <figcaption id="figcaptionAddress">
+                    <div id="address">
+                        <h2>Venez-nous voir</h2>
+                        <address>
+                            Coco Rico<br>
+                            127 Rue de la Pompe<br>
+                            75003 Paris<br>
+                        </address>
+                        <p>
+                            tél: <a href="tel:0135459000">0135459000</a><br>
+                            mail: coco@cocorico.com
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2>Recevez les nouveautés</h2>
+                        <div class="newsletterMail">
+                            <input type="email" name="email" id="email"  placeholder="votre email" required>
+                        </div>
+                        <button type="submit" class="newsLetter">Je m'inscris</button>
+                    </div>
                 </figcaption>
             </figure>
         </footer>
