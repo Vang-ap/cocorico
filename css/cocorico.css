@@ -1,0 +1,531 @@
+.bodyHome {
+    background-color: #f7d1a44d;
+}
+
+#mainHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 7px solid #76209ef5;
+}
+
+#mainHeader #logoCoco {
+    display: flex;
+    position: inherit;
+    justify-content: flex-start;
+    width: 116px;
+}
+
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.restaurantHome {
+    background: url('/image/restaurant_B.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+#pageContent {
+    margin: 20px;
+}
+
+#mainNav {
+  display: block;
+  display: flex;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#mainNav ul li {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 15pt;
+}
+
+main p {
+    text-align: center;
+    color:#76209ef5;
+    padding: 14px;
+    margin: 20px;
+    margin-top: 43px;
+    font-size: 17pt;
+}
+
+main  #titleEquipe {
+    font-size: 40pt;
+    color: #f8cc53;
+    text-align: inherit;
+    padding: 31px;
+    margin-top: 6px;
+    text-align: center;
+}
+
+main #titleIndex {
+    font-size: 40pt;
+    color: #f8cc53;
+    text-align: inherit;
+    padding: 31px;
+    margin-top: 6px;
+    text-align: center;
+}
+
+div #indexSecond {
+    font-size: 30pt;
+    color: #f8cc53;
+    text-align: center;
+    border: 4px;
+    padding: 30px;
+    margin: 68px;
+    margin-top: 223px;
+}
+
+#presentation {
+    border: 6px solid #76209ef5;
+    padding: 15px;
+    margin: 53px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 17px --4px #666;
+    position: absolute;
+    margin-top: -390px;
+    background-color: white;
+}
+
+main #fristTitleCarte{
+    font-size: 40pt;
+    color: #f8cc53;
+    text-align: inherit;
+    padding: 31px;
+    margin-top: -165px;
+    text-align: start;
+    margin-left: 198px;
+}
+
+main #secondTitleCarte {
+    font-size: 30pt;
+    color: #f8cc53;
+    text-align: inherit;
+    padding: 31px;
+    margin-top: 53px;
+    text-align: start;
+}
+
+figcaption #proposition {
+    text-align: inherit;
+    box-sizing: 10px;
+    padding: 15px;
+    margin: 4px;
+}
+.commanderH {
+    display: block;
+    position: inherit;
+    padding: 9px;
+    border-bottom: 1px;
+    margin-block-start: 34px; 
+    margin-left: 20px; 
+    margin-top: 61px; 
+    padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#76209ef5;
+	color:white;
+	border-radius: 13px;
+    width: 100px;
+    border: 1px #ccc;
+    box-shadow: 1px 7px 11px #999;
+}
+
+.mitrrailetteHome {
+    padding-left: 15px;
+}
+
+#mainFooter {
+    margin-top: 100px;
+    background-color: #2b0533ef;
+    border-top: 7px solid #76209ef5;
+}
+
+figcaption p {
+    text-align: center;
+}
+
+footer {
+    color: #f5eff8f5;
+}
+
+.planFooter {
+    max-width: 24%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: -53px;
+    position: relative;
+    
+}
+
+figure #nameLf {
+    color: #f8cc53;
+    text-align: center;
+    padding: 20px;
+    margin: 16px;
+    font-size: 15pt;
+}
+
+address {
+    text-align: center;
+}
+
+div #tailleBoxmail  {
+    text-align: start;
+    color: #8d35b6f5;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 1px;
+    margin-left: 20px;
+    width: 232px;
+    height: 20px;
+}
+
+.newsLetter {
+    display: block;
+    position: inherit;
+    padding: 9px;
+    border-bottom: 1px;
+    margin-block-start: 34px; 
+    margin-left: 99px; 
+    margin-top: 30px; 
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#76209ef5;
+    color:white;
+    border-radius: 13px;
+    width: 156px;
+    border: 1px #ccc;
+    box-shadow: 1px 1px 2px #999;
+}
+
+.restaurantContactez {
+    background: url(/image/tableContact.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+#frmContact { 
+    background-color: transparent;
+    margin: 15px 525px;
+    padding:50px;
+    position: relative; 
+    width:235px;
+    margin-top: 12px;
+}
+
+#frmContact input {
+    color: #8d35b6f5;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 13px;
+    margin-left: 0px;
+    width: 282px;
+    height: 20px;
+}
+
+#frmContact textarea {
+    color: #8d35b6f5;
+    border-radius: 5px;
+    padding: 3px;
+    width: 282px;
+    height: 182px;
+    margin-top: 13px;
+    margin-left: 0px;
+}
+
+#figureFooter {
+    display: flex;
+    margin-top: 53px;
+}
+
+figcaption #Titlefooter {
+    text-align: center;
+    margin: 21px;
+    font-size: 20pt;
+}
+
+#figcaptionAddress {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 85px;
+}
+
+#thisWeek {
+    display: flex;
+}
+
+#thisWeek figure {
+    display: flex;
+}
+
+#pageContact button {
+    display: block;
+    position: inherit;
+    padding: 9px;
+    border-bottom: 1px;
+    margin-block-start: 34px; 
+    margin-left: 75px; 
+    margin-top: 22px; 
+    padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#76209ef5;
+	color:white;
+	border-radius: 13px;
+    width: 156px;
+    border: 1px #ccc;
+    box-shadow: 1px 7px 11px #999;
+}
+
+.logoContact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whatsAppLogo {
+    position: inherit;
+    width: 335px;
+    margin-top: -80px;
+    margin-left: -110px;
+}
+
+.facebookLogo {
+    position: inherit;
+    width: 110px;
+    margin-left: -122px;
+    margin-top: 4px;
+}
+
+.twitterLogo {
+    position: inherit;
+    width: 110px;
+    margin-top: 3px;
+    margin-left: -12px;
+}
+
+.insatgramLogo {
+    position: inherit;
+    width: 110px;
+    margin-left: -20px;
+    margin-top: 4px;
+}
+
+main #titlePetitMot {
+    font-size: 40pt;
+    color: #f8cc53;
+    text-align: center;
+    margin: 47px 17px;
+}
+
+main #titleContactezNous {
+    font-size: 36pt;
+    color: #f8cc53;
+    text-align: center;
+    margin: 87px 17px;
+}
+
+.equipe {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    text-align: center;
+}
+.peronne{
+    margin-top: 100px;
+}
+.poste {
+    font-size: 16pt;
+    color: #2b0533ef;
+}
+.restaurantequipe {
+    background: url('/image/2015.01.08.16.38.23.16_waiters.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 538px;
+    width: 100%;
+}
+
+.laCarte {
+    border: 2px solid #76209ef5;
+    display: flex;
+    flex-direction: row;
+    margin-top: -6px;
+}
+
+.descriptCarte {
+    display: flex;
+    justify-content: space-around;
+}
+
+figure #laCarteImg {
+    height: 318px;
+}
+
+#laCartetexte p {
+    font-size: 12pt;
+    margin: 11px 11px;
+}
+
+.restaurantCarte {
+    background: url('/image/960__640__auto___wp-content_uploads_2020_04_restaurant-2623071_1920.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+.video {
+    margin-left: 799px;
+    margin-top: -145px;
+}
+img #personel{
+    width: 313px;
+    height: 306px;
+}
+.cartesPlats {
+    display: contents
+}
+figure #personelDescript{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14pt;
+}
+
+.restaurantCdeLigne {
+    background: url('/image/FdCdeLigne1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+main #logoDeliveroo {
+    width: 160px;
+    margin: 1px 10px;
+    margin-top: -80px;
+}
+
+main #logoUberEats {
+    width: 160px;
+    margin: 1px 17px;
+    margin-top: -80px;
+}
+
+.logoLivraison {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main #cdeEnLigne{
+    font-size: 30pt;
+    text-align: center;
+    color: #f8cc53;
+}
+
+main #vosInfos{
+    font-size: 20pt;
+    color: #f8cc53;
+    margin: 40px 0;
+    text-align: center;
+}
+
+main #VotreCde {
+    font-size: 20pt;
+    color: #f8cc53;
+    margin: 17px 9px;
+}
+
+main #formulaireMenus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectionM {
+    margin-bottom: 10px;
+}
+
+main #horaireLivraison {
+    display: flex;
+}
+.time {
+    margin-left: 4px;
+}
+
+main #heureDatelivraison{
+    font-size: 20pt;
+    color: #f8cc53;
+    margin: 17px 9px;
+}
+
+.formulaireCde {
+    border: 2px solid #76209ef5;
+    border-radius: 10px;
+    padding: 12px 21px;
+}
+
+main #CodeEnLigneFormu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 131px;
+}
+
+.quantite {
+    text-align: start;
+    color: #8d35b6f5;
+    border-radius: 5px;
+    border: 1px solid #8d35b6f5;
+    width: 62px;
+    height: 36px;
+}
+
+.cdebouton {
+    display: block;
+    position: inherit;
+    border-bottom: 1px;
+    margin-block-start: 34px;
+    margin-left: 99px;
+    margin-top: 30px;
+    padding: 6px 0 6px 0;
+    font: bold 13px Arial;
+    background: #76209ef5;
+    color: white;
+    border-radius: 13px;
+    width: 156px;
+    border: 1px #ccc;
+    box-shadow: 1px 1px 2px #999;
+}
+
+.submitContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.menuMsD {
+    text-align: start;
+    color: #8d35b6f5;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 14px;
+    margin-left: 15px;
+    width: 122px;
+    height: 40px;
+}
+
+.field {
+    text-align: start;
+    color: #8d35b6f5;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 1px;
+    margin-left: 20px;
+    width: 232px;
+    height: 20px;
+}
+    
