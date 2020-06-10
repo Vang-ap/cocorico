@@ -3,10 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title>Coco Rico</title>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/cocorico.css">
     </head>
-    <body>
-        <header>
-            <img src="/logo.png" alt="logococo" id="logococo">
+    <body class="bodyHome">
+        <header id="mainHeader">
+            <img src="/logo.png" alt="logoCoco" id="logoCoco">
             <nav id="mainNav">
                 <ul>
                     <li><a href="index.html" title="Vers la page d'accueil du site Coco Rico">Acceuil |</a></li>
@@ -16,13 +18,13 @@
                     <li><a href="Contact.html" title="Vers la page de contact de ce site">Contactez-nous</a></li>
                 </ul>
             </nav>
-            <div>
-                <img src="/image/logo/deliveroo.png" alt="logoDeliveroo">
-            </div>
-            <div>
-                <img src="/image/logo/Uber-Eats.png" alt="logoUberEats">
-            </div>
         </header>
+        <div>
+            <img src="/image/logo/deliveroo.png" alt="logoDeliveroo">
+        </div>
+        <div>
+            <img src="/image/logo/Uber-Eats.png" alt="logoUberEats">
+        </div>
         <main id="pageContent">
             <h1>Commandez en ligne</h1>
         <div>  
@@ -135,25 +137,29 @@
             <button type="submit">Commander</button>
         </div>
         </main>
-        <footer>
-            <figure>
-                <img src="/image/plan.png" alt="plan" width="50%">
-                <figcaption>
-                    <h2>Venez-nous voir</h2>
-           <address>
-                Coco Rico<br>
-                127 Rue de la Pompe<br>
-                 75003 Paris<br>
-            </address>
-            <p>
-                tél: 0135459000<br>
-                mail: coco@cocorico.com
-            </p>
-            <h2>Recevez les nouveautés</h2>
-            <div>
-                <input type="email" name="email" id="email" placeholder="votre email" required>
-              </div>
-            <button type="submit">Je m'inscris</button>
+        <footer id="mainFooter">
+            <figure id="figureFooter">
+                <img src="/image/plan.png" class="planFooter" alt="plan" width="50%">
+                <figcaption id="figcaptionAddress">
+                    <div id="address">
+                        <h2 id="Titlefooter">Venez-nous voir</h2>
+                        <address>
+                            Coco Rico<br>
+                            127 Rue de la Pompe<br>
+                            75003 Paris<br>
+                        </address>
+                        <p>
+                            tél: <a href="tel:0135459000">0135459000</a><br>
+                            mail: coco@cocorico.com
+                        </p>
+                    </div>
+                    <div>
+                        <h2 id="Titlefooter">Recevez les nouveautés</h2>
+                        <div class="newsletterMail">
+                            <input id="tailleBoxmail" type="email" name="email" id="email"  placeholder="votre email" required>
+                        </div>
+                        <button type="submit" class="newsLetter">Je m'inscris</button>
+                    </div>
                 </figcaption>
             </figure>
         </footer>
